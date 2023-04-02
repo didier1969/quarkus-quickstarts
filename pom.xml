@@ -54,6 +54,7 @@
         <module>kogito-dmn-quickstart</module>
         <module>kogito-pmml-quickstart</module>
         <module>optaplanner-quickstart</module>
+        <module>optaplanner-mrp3d</module>
         <module>lifecycle-quickstart</module>
         <module>micrometer-quickstart</module>
         <module>microprofile-fault-tolerance-quickstart</module>

@@ -23,7 +23,7 @@ import io.quarkus.runtime.StartupEvent;
 @ApplicationScoped
 public class DemoDataGenerator {
 
-    @ConfigProperty(name = "timeTable.demoData", defaultValue = "SMALL")
+    @ConfigProperty(name = "mrp3d.demoData", defaultValue = "SMALL")
     DemoData demoData;
 
     @Inject
@@ -38,6 +38,8 @@ public class DemoDataGenerator {
         if (demoData == DemoData.NONE) {
             return;
         }
+
+        // TODO : Technology, Setups, SetupChanges, Workcenters, Calendars, Workdays, Materials, Jobs
 
         List<Timeslot> timeslotList = new ArrayList<>(10);
         timeslotList.add(new Timeslot(DayOfWeek.MONDAY, LocalTime.of(8, 30), LocalTime.of(9, 30)));

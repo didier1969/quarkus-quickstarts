@@ -3,14 +3,14 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.acme</groupId>
-  <artifactId>optaplanner-quickstart</artifactId>
+  <artifactId>optaplanner-mrp3d</artifactId>
   <version>1.0.0-SNAPSHOT</version>
 
   <properties>
     <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
     <quarkus.platform.group-id>io.quarkus</quarkus.platform.group-id>
     <quarkus.platform.version>2.16.5.Final</quarkus.platform.version>
-    <optaplanner-quarkus.version>9.35.0.Beta2</optaplanner-quarkus.version>
+    <optaplanner-quarkus.version>8.36.0.Final</optaplanner-quarkus.version>
     <compiler-plugin.version>3.8.1</compiler-plugin.version>
     <surefire-plugin.version>3.0.0-M7</surefire-plugin.version>
     <docker-plugin.version>0.28.0</docker-plugin.version>
